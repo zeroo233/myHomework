@@ -1,0 +1,71 @@
+.question {
+    font-size: 40px;
+    list-style: upper-roman inside;
+}
+
+.subquestion {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.answer{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.table, th, td{
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 900px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+}
+#name {
+    width: 17%;
+}
+#age {
+    width: 16%;
+}
+#number {
+    width: 17%;
+}
+#address {
+    width: 50%;
+}
+#headrow {
+    font-weight:bolder;
+}
+
+.answer input{
+    margin: auto;
+    width: 50%;
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 22px;
+    font-size: 25px;
+    border-collapse: collapse;
+    padding-left: 22px;
+    display: block;
+}
+
+.subanswer {
+    padding-left: 2rem;
+    list-style-position: inside;
+}
+ul.subanswer {
+    list-style-type: disc;
+}
+
+.dropdown {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+body {
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
